@@ -54,6 +54,6 @@ public class PersonEntity {
     }
 
     public List<CommandEntity> getCommands() {
-        return commands;
+        return new ArrayList<>(commands);
     }
 }
