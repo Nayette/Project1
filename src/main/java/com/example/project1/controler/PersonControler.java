@@ -10,7 +10,7 @@ import java.util.List;
 @RestController
 public class PersonControler {
 
-    PersonService personService;
+    private PersonService personService;
 
     public PersonControler(PersonService personService) {
         this.personService = personService;
